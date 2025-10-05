@@ -1,0 +1,8 @@
+def right_angle_numbers(n):
+    for i in range(1, n + 1):
+        for j in range(1, i + 1):
+            print(j, end=' ')
+        print()
+
+print("\nRight-angled triangle with numbers:")
+right_angle_numbers(5)
